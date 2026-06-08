@@ -90,10 +90,10 @@ export default function ContactPage() {
                 Email
               </p>
               <a
-                href="mailto:hello@forma-studio.com"
+                href="mailto:hello@srinjoyinteriors.com"
                 className="text-sm text-charcoal hover:text-terracotta transition-colors"
               >
-                hello@forma-studio.com
+                hello@srinjoyinteriors.com
               </a>
             </div>
 

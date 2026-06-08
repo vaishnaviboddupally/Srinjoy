@@ -47,8 +47,8 @@ export default function AboutTeaser() {
             />
             {/* Floating tag */}
             <div className="absolute bottom-8 right-8 bg-cream/95 backdrop-blur-sm px-6 py-4 shadow-lg">
-              <p className="font-serif text-2xl text-charcoal font-medium">Est. 2012</p>
-              <p className="text-charcoal/50 text-xs tracking-widest uppercase mt-0.5">Milan & New York</p>
+              <p className="font-serif text-2xl text-charcoal font-medium">Srinjoy Interiors</p>
+              <p className="text-charcoal/50 text-xs tracking-widest uppercase mt-0.5">Crafted with Passion</p>
             </div>
           </motion.div>
 

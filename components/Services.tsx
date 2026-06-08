@@ -1,6 +1,7 @@
 'use client'
 
 import { useRef } from 'react'
+import Link from 'next/link'
 import { motion, useInView } from 'framer-motion'
 
 const SERVICES = [
@@ -114,7 +115,7 @@ function ServiceCard({ service, index }: { service: typeof SERVICES[0]; index: n
         {service.description}
       </p>
 
-      <a
+      <Link
         href="/services"
         className="inline-flex items-center gap-1.5 text-sm font-medium text-terracotta opacity-0 group-hover:opacity-100 transition-all duration-300 translate-x-[-4px] group-hover:translate-x-0"
       >
@@ -122,7 +123,7 @@ function ServiceCard({ service, index }: { service: typeof SERVICES[0]; index: n
         <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
           <path d="M1 7h12M8 2l5 5-5 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
         </svg>
-      </a>
+      </Link>
     </motion.div>
   )
 }

@@ -17,14 +17,6 @@ html.lenis body {
   overflow: hidden;
 }
 
-/* ─── Custom cursor — hide system cursor on pointer devices ─── */
-@media (pointer: fine) {
-  *,
-  *::before,
-  *::after {
-    cursor: none !important;
-  }
-}
 
 /* ─── Noise texture ─── */
 .noise-bg {

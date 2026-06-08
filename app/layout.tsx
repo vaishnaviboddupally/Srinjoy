@@ -4,9 +4,10 @@ import './globals.css'
 import LenisProvider from '@/components/LenisProvider'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
-import CustomCursor from '@/components/CustomCursor'
 import ScrollProgress from '@/components/ScrollProgress'
 import RouteCurtain from '@/components/RouteCurtain'
+import WhatsAppButton from '@/components/WhatsAppButton'
+import BackToTop from '@/components/BackToTop'
 
 const playfair = Playfair_Display({
   subsets: ['latin'],
@@ -36,17 +37,21 @@ export const metadata: Metadata = {
     'residential design',
     'commercial interiors',
     'hospitality design',
+    'Rudhvi',
+    'interiors_by_srinjoy',
   ],
   openGraph: {
     title: 'Srinjoy Interiors',
     description: 'Award-winning interior design studio.',
     type: 'website',
     locale: 'en_US',
+    images: [{ url: '/og-image.jpg', width: 1200, height: 630, alt: 'Srinjoy Interiors' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Srinjoy Interiors',
     description: 'Award-winning interior design studio.',
+    images: ['/og-image.jpg'],
   },
 }
 
@@ -59,12 +64,13 @@ export default function RootLayout({
     <html lang="en" className={`${playfair.variable} ${dmSans.variable}`}>
       <body className="bg-cream text-charcoal font-sans antialiased overflow-x-hidden">
         <LenisProvider>
-          <CustomCursor />
           <ScrollProgress />
           <RouteCurtain />
           <Navbar />
           {children}
           <Footer />
+          <WhatsAppButton />
+          <BackToTop />
         </LenisProvider>
       </body>
     </html>

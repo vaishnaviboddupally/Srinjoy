@@ -140,8 +140,8 @@ export default function Footer() {
                 New York, NY 10010<br />
                 USA
               </p>
-              <a href="mailto:hello@forma-studio.com" className="block text-cream/65 text-sm hover:text-terracotta transition-colors">
-                hello@forma-studio.com
+              <a href="mailto:hello@srinjoyinteriors.com" className="block text-cream/65 text-sm hover:text-terracotta transition-colors">
+                hello@srinjoyinteriors.com
               </a>
               <a href="tel:+12125550100" className="block text-cream/65 text-sm hover:text-terracotta transition-colors">
                 +1 (212) 555-0100

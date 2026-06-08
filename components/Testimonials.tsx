@@ -23,7 +23,7 @@ const TESTIMONIALS = [
   {
     id: 3,
     quote:
-      "Working with Elena and James felt like a genuine creative collaboration. They listened deeply, challenged our assumptions in the best way, and delivered a home that is both beautiful and completely us.",
+      "Working with Rudhvi felt like a genuine creative collaboration. He listened deeply, challenged our assumptions in the best way, and delivered a home that is both beautiful and completely us.",
     client: 'Rachel & Tom Ashworth',
     location: 'London, UK',
     rating: 5,

@@ -151,7 +151,7 @@ export default function Hero() {
         animate={{ opacity: 1 }}
         transition={{ delay: 1.8, duration: 0.8 }}
       >
-        Est. 2012 — Milan & New York
+        Srinjoy Interiors — Crafted with Passion
       </motion.p>
     </section>
   )
